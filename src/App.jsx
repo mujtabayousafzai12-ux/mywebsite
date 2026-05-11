@@ -1,4 +1,51 @@
-export default function App() {
+<div style={{marginTop:"30px"}}>
+
+  <input
+    type="text"
+    placeholder="Username"
+    style={{
+      padding:"12px",
+      width:"250px",
+      margin:"10px",
+      borderRadius:"10px",
+      border:"2px solid #00ff88",
+      background:"black",
+      color:"white"
+    }}
+  />
+
+  <br />
+
+  <input
+    type="password"
+    placeholder="Password"
+    style={{
+      padding:"12px",
+      width:"250px",
+      margin:"10px",
+      borderRadius:"10px",
+      border:"2px solid #00ff88",
+      background:"black",
+      color:"white"
+    }}
+  />
+
+  <br />
+
+  <button
+    style={{
+      padding:"12px 30px",
+      background:"#00ff88",
+      border:"none",
+      borderRadius:"10px",
+      fontWeight:"bold",
+      cursor:"pointer"
+    }}
+  >
+    SIGN IN
+  </button>
+
+</div>export default function App() {
   return (
     <div style={{
       background:"black",
