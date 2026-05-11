@@ -1,3 +1,5 @@
+import "@fontsource/orbitron";<div style={{fontFamily:"Orbitron",textShadow:"0 0 20px #00ff88"
+
 export default function App() {
   return (
     <div style={{
