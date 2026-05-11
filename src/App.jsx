@@ -1,4 +1,16 @@
+<section className="text-center mt-20">
 <img
+  src="/pic.jpeg"
+  alt="profile"
+  className="w-40 h-40 rounded-full mx-auto border-4 border-green-500 mb-6 object-cover"
+/>
+<section className="text-center mt-20">
+
+<img
+  src="/pic.jpeg"
+  alt="profile"
+  className="w-40 h-40 rounded-full mx-auto border-4 border-green-500 mb-6 object-cover"
+/><img
   src="/pic.jpeg"
   alt="profile"
   className="w-40 h-40 rounded-full mx-auto border-4 border-green-500 mb-6 object-cover"
