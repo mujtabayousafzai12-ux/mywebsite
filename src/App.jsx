@@ -1,4 +1,9 @@
-import "@fontsource/orbitron";<div style={{fontFamily:"Orbitron",textShadow:"0 0 20px #00ff88"
+import "@fontsource/orbitron";fontFamily:"Orbitron"fontFamily:"Orbitron",textShadow:"0 0 20px #00ff88"<h1 style={{
+  fontSize:"50px",
+  textShadow:"0 0 20px #00ff88"
+}}>
+  CYBER-X
+</h1>import "@fontsource/orbitron";<div style={{fontFamily:"Orbitron",textShadow:"0 0 20px #00ff88"
 
 export default function App() {
   return (
