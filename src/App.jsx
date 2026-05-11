@@ -1,3 +1,8 @@
+<img
+  src="/pic.jpeg"
+  alt="profile"
+  className="w-40 h-40 rounded-full mx-auto border-4 border-green-500 mb-6 object-cover"
+/><section className="text-center mt-20">
 import { FaShieldAlt, FaTerminal, FaLock } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
