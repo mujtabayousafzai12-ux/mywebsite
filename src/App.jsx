@@ -1,98 +1,4 @@
-<div style={{marginTop:"30px"}}>
-
-  <input
-    type="text"
-    placeholder="Username"
-    style={{
-      padding:"12px",
-      width:"250px",
-      margin:"10px",
-      borderRadius:"10px",
-      border:"2px solid #00ff88",
-      background:"black",
-      color:"white"
-    }}
-  />
-
-  <br />
-
-  <input
-    type="password"
-    placeholder="Password"
-    style={{
-      padding:"12px",
-      width:"250px",
-      margin:"10px",
-      borderRadius:"10px",
-      border:"2px solid #00ff88",
-      background:"black",
-      color:"white"
-    }}
-  />
-
-  <br />
-
-  <button
-    style={{
-      padding:"12px 30px",
-      background:"#00ff88",
-      border:"none",
-      borderRadius:"10px",
-      fontWeight:"bold",
-      cursor:"pointer"
-    }}
-  >
-    SIGN IN
-  </button>
-
-</div><div style={{marginTop:"30px"}}>
-
-  <input
-    type="text"
-    placeholder="Username"
-    style={{
-      padding:"12px",
-      width:"250px",
-      margin:"10px",
-      borderRadius:"10px",
-      border:"2px solid #00ff88",
-      background:"black",
-      color:"white"
-    }}
-  />
-
-  <br />
-
-  <input
-    type="password"
-    placeholder="Password"
-    style={{
-      padding:"12px",
-      width:"250px",
-      margin:"10px",
-      borderRadius:"10px",
-      border:"2px solid #00ff88",
-      background:"black",
-      color:"white"
-    }}
-  />
-
-  <br />
-
-  <button
-    style={{
-      padding:"12px 30px",
-      background:"#00ff88",
-      border:"none",
-      borderRadius:"10px",
-      fontWeight:"bold",
-      cursor:"pointer"
-    }}
-  >
-    SIGN IN
-  </button>
-
-</div>export default function App() {
+export default function App() {
   return (
     <div style={{
       background:"black",
@@ -102,14 +8,16 @@
       padding:"20px"
     }}>
 
-      <h1 style={{fontSize:"50px"}}>CYBER-X</h1>
+      <h1 style={{fontSize:"50px"}}>
+        CYBER-X
+      </h1>
 
       <img
         src="/pic.jpeg"
         alt="profile"
         style={{
-          width:"200px",
-          height:"200px",
+          width:"180px",
+          height:"180px",
           borderRadius:"50%",
           border:"4px solid #00ff88",
           objectFit:"cover",
@@ -117,11 +25,51 @@
         }}
       />
 
-      <h2 style={{marginTop:"20px"}}>
-        MK Hacker
-      </h2>
+      <h2>MK Hacker</h2>
 
       <p>Advanced cyber security platform</p>
+
+      <div style={{marginTop:"30px"}}>
+
+        <input
+          type="text"
+          placeholder="Username"
+          style={{
+            padding:"12px",
+            width:"250px",
+            margin:"10px",
+            borderRadius:"10px"
+          }}
+        />
+
+        <br />
+
+        <input
+          type="password"
+          placeholder="Password"
+          style={{
+            padding:"12px",
+            width:"250px",
+            margin:"10px",
+            borderRadius:"10px"
+          }}
+        />
+
+        <br />
+
+        <button
+          style={{
+            padding:"12px 30px",
+            background:"#00ff88",
+            border:"none",
+            borderRadius:"10px",
+            fontWeight:"bold"
+          }}
+        >
+          SIGN IN
+        </button>
+
+      </div>
 
     </div>
   );
